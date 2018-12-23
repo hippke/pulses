@@ -98,14 +98,15 @@ plt.subplot(2, 2, 2)
 plt.ylim([0, max(power)*1.2])
 plt.xlim([10**-14, 4*10**-12])
 plt.plot(freqs, power, color='black', linewidth=0.5)
-peak1 = 1.10*10**-13
+peak1 = 1.09*10**-13
 peak2 = 1.64*10**-12
 plt.plot([peak1, peak1], [0, max(power) * 1.2], color='red', linewidth=1, linestyle='dashed', alpha=0.5)
 plt.plot([peak2, peak2], [0, max(power) * 1.2], color='red', linewidth=1, linestyle='dashed', alpha=0.5)
 plt.xlabel('Period (s)')
-plt.ylabel('Lomb-Scargle power')
+plt.ylabel('Power')
 plt.xscale("log")
 plt.text(1.2*10**-14, 24.5, 'b')
+plt.text(1.25*10**-13, 24.5, r'$1.09\times10^{-13}\,$s')
 
 plt.subplot(2, 2, 3)
 plt.xlim(min(linearized_frequencies), max(linearized_frequencies))
@@ -126,3 +127,4 @@ plt.text(6.52*10**14, 0.20, 'd')
 
 fig.align_labels()
 plt.savefig('1.pdf', bbox_inches='tight')
+plt.savefig('1.png', bbox_inches='tight', dpi=200)
