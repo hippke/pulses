@@ -1,4 +1,4 @@
-### Periodic Spectral Modulations arise from non-random spacing of spectral absorption lines
+### Periodic Spectral Modulations Arise from Non-random Spacing of Spectral Absorption Lines
 
 The code in this repository ("make_figure.py") reads a synthetic solar spectrum, performs a spectral Fourier transform, and outputs the Figure shown below. It is intended to accompany the paper and allow for reproducible science.
 
