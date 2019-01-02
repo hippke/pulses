@@ -14,7 +14,6 @@ Please cite [Hippke (2019)](https://ui.adsabs.harvard.edu/#abs/2019MNRAS.482.244
        author = {{Hippke}, Michael},
         title = "{The spectral Petersen diagram as a new tool to map pulsation modes in variable stars}",
       journal = {\mnras},
-     keywords = {methods: numerical, surveys, stars: variables: RR Lyrae, Astrophysics - Solar and Stellar Astrophysics},
          year = 2019,
         month = Jan,
        volume = {482},
