@@ -10,15 +10,21 @@ The code in this repository ("make_figure.py") reads a synthetic solar spectrum,
 Please cite [Hippke (2018)](http://www.) if you find this code useful in your research. The BibTeX entry for the paper is:
 
 ```
-@article{abc,
-   author = {},
-    title = {},
-  journal = {},
-     year = ,
-   volume = ,
-    pages = {},
-   eprint = {},
-      doi = {}
+@ARTICLE{2019MNRAS.482.2442H,
+       author = {{Hippke}, Michael},
+        title = "{The spectral Petersen diagram as a new tool to map pulsation modes in variable stars}",
+      journal = {\mnras},
+     keywords = {methods: numerical, surveys, stars: variables: RR Lyrae, Astrophysics - Solar and Stellar Astrophysics},
+         year = 2019,
+        month = Jan,
+       volume = {482},
+        pages = {2442-2446},
+          doi = {10.1093/mnras/sty2790},
+archivePrefix = {arXiv},
+       eprint = {1810.06084},
+ primaryClass = {astro-ph.SR},
+       adsurl = {https://ui.adsabs.harvard.edu/\#abs/2019MNRAS.482.2442H},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 ```
 
