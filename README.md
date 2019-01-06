@@ -6,8 +6,10 @@ The code in this repository ("make_figure.py") reads a synthetic solar spectrum,
 
 (a): Spectral Fourier Transform of the synthetic solar spectrum by [Kurucz (2005)](https://ui.adsabs.harvard.edu/#abs/2005MSAIS...8..189K/abstract). A sliding median with a boxcar width of 3 % (red line) is fitted to the spectral flux (black line). (b): After subtracting the median from the flux, a Lomb-Scargle periodogram is calculated (black). The highest peak coincides with one of the claimed pulse spacings (dashed red). (c): The median-subtracted flux (black) is shown together with the best-fit sine derived from the periodogram. (d): A zoom to show the fit of the sine to the data.
 
+
+
 ## Attribution
-Please cite Hippke (2019, PASP in press, (ADS)[https://ui.adsabs.harvard.edu/#abs/2019arXiv190100523H/abstract], (PDF)[https://arxiv.org/pdf/1901.00523.pdf]) if you find this code useful in your research. The BibTeX entry for the paper is:
+Please cite Hippke (2019, PASP in press, [ADS](https://ui.adsabs.harvard.edu/#abs/2019arXiv190100523H/abstract), [PDF](https://arxiv.org/pdf/1901.00523.pdf)) if you find this code useful in your research. The BibTeX entry for the paper is:
 
 ```
 @ARTICLE{2019arXiv190100523H,
@@ -28,6 +30,6 @@ archivePrefix = {arXiv},
 ```
 
 ## Contributing Code, Bugfixes, or Feedback
-I welcome and encourage contributions.
+I welcome and encourage contributions. If you have any trouble, [open an issue](https://github.com/hippke/pulses/issues).
 
-Copyright 2018 Michael Hippke
+Copyright 2019 Michael Hippke
